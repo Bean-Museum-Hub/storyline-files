@@ -3,8 +3,8 @@ MLBM Storyline Kiosks
 
 Currently the available storyline presentations are:
 - Curiosity Carts
-    - [Fur Cart](Curiosity%20Carts/Fur%20Cart/story.html) 
-    - [Tree Cart](Curiosity%20Carts/Tree%20Cart/story.html)
+    - [Fur Cart](./Curiosity%20Carts/Fur%20Cart/story.html) 
+    - [Tree Cart](./Curiosity%20Carts/Tree%20Cart/story.html)
 - Exhibits
     - [Arthropods](Exhibits/Arthropods/story.html)
     - [Herbarium](Exhibits/Herbarium/story.html)
@@ -22,4 +22,4 @@ Currently the available storyline presentations are:
     - [Search for life](Kiosks/Search%20for%20life/story.html)
     - [Wolf Kiosk](Kiosks/Wolf%20Kiosk/story.html)
 - Live Animal Shows
-    - 
+    - [Wolf Kiosk](Kiosks/Wolf%20Kiosk/story.html)
