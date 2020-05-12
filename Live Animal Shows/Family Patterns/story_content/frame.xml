@@ -7,7 +7,6 @@
     <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
     <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
     <layout name="npxnanbnsnfns00000000001" font="Open Sans" controllayout="npxnanbnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
-    <layout name="pnxanbnsnfns00000000001" font="Open Sans" controllayout="pnxanbnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -214,29 +213,6 @@
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="false" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="pnxanbnsnfns00000000001">
-      <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
@@ -1239,22 +1215,7 @@
             <slidelink slideid="_player.5Vf1fVjmSEa.6RANbIJ3loY" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5Vf1fVjmSEa.6VBA4G3juPO" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5Vf1fVjmSEa.6L1T6JuCPt9" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.678KGT5Gf9i" displaytext="Mule deer" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.5zQ4npQxndW" displaytext="Mule deer fawn" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.67lzSi0TGw4" displaytext="GHO" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.5qKrjLVsFoO" displaytext="GHO chick" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.6mbbl6l8oNs" displaytext="Redwood" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.5zOgHTOVRyA" displaytext="redwood sapling" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.5wzn0cYN8td" displaytext="Chinook" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.5gy3pyB5PpV" displaytext="Chinook alevin" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.64m5XCag7jL" displaytext="bullfrog" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.6lSfxrQ8hiA" displaytext="bullfrog tadpole" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.6qGMbvkuaVG" displaytext="Monarch Butterfly" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.6mC42fxXV6g" displaytext="Monarch Caterpillar" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.6V4r720Vfej" displaytext="Human" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.5stQPSaIgBS" displaytext="Human baby" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.6mNJLuOl2dj" displaytext="Turtle" expand="false" type="slide" />
-            <slidelink slideid="_player.5Vf1fVjmSEa.6ef6ixN3JDe" displaytext="turtle baby" expand="false" type="slide" />
+            <slidelink slideid="_player.5Vf1fVjmSEa.6evFvg5xp4T" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
