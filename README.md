@@ -1,7 +1,7 @@
 # mlbm-storyline
 MLBM Storyline Kiosks
 
-This repo holds the storyline output for various kiosks and presentations in the Monte L Bean Life Science Museum. You can access the different presentations at the [Github Pages Site](https://mlbeanmuseum.github.io/mlbm-storyline/).
+This repo holds the storyline output for various kiosks and presentations in the Monte L Bean Life Science Museum. You can access the different presentations at the [Github Pages Site](https://mlbeanmuseum.github.io/storyline-files/).
 
 Currently the available storyline presentations are:
 - Curiosity Carts
