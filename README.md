@@ -1,5 +1,5 @@
 # mlbm-storyline
-MLBM Storyline Kiosks
+MLBM Storyline Files
 
 This repository holds the storyline output for various kiosks and presentations in the Monte L Bean Life Science Museum. 
 Currently the available storyline presentations are:
