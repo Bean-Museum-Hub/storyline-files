@@ -27,7 +27,7 @@ Currently the available storyline presentations are:
     - [Adaptations](./Live%20Animal%20Shows/Adaptations/story.html)
     - [Animal Comparisons](./Live%20Animal%20Shows/Animal%20Comparisons/story.html)
     - [Classification](./Live%20Animal%20Shows/Classification/story.html)
-    - [Ecosystems](./Live%20Animal%20Shows/Ecosystems/story.html)
+    - [Interactions in Ecosystems](./Live%20Animal%20Shows/Ecosystems/story.html)
     - [Energy Matters](./Live%20Animal%20Shows/Energy%20Matters/story.html)
     - [Family Patterns](./Live%20Animal%20Shows/Family%20Patterns/story.html)
     - [Habitat Hunters](./Live%20Animal%20Shows/Habitat%20Hunters/story.html)
