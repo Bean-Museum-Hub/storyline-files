@@ -7,6 +7,7 @@
     <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
     <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
     <layout name="pnxanbnsnfns00000000001" font="Open Sans" controllayout="pnxanbnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="npxnabsnfns00000000001" font="Open Sans" controllayout="npxnabsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -14,7 +15,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="6th grade program 2" />
+              <option name="title_text" value="Interactions in Ecosystems" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -216,6 +217,29 @@
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="false" />
       <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
       <control name="resources" enabled="false" />
@@ -1215,9 +1239,10 @@
             <slidelink slideid="_player.5rZr3kMoJav.6lUAHB7YHNG" displaytext="Producer" expand="false" type="slide" />
             <slidelink slideid="_player.5rZr3kMoJav.6Fkq6PiEfRK" displaytext="producer 2" expand="false" type="slide" />
             <slidelink slideid="_player.5rZr3kMoJav.5cEkKcv3Lgb" displaytext="Consumer" expand="false" type="slide" />
+            <slidelink slideid="_player.5rZr3kMoJav.6WYYcJuiFmd" displaytext="consumer 2" expand="false" type="slide" />
             <slidelink slideid="_player.5rZr3kMoJav.6KJEKbTNbqU" displaytext="Decomposer" expand="false" type="slide" />
-            <slidelink slideid="_player.5rZr3kMoJav.6eHmFGEIcOa" displaytext="Competition" expand="false" type="slide" />
             <slidelink slideid="_player.5rZr3kMoJav.6Kukw2Y8gIu" displaytext="Predation" expand="false" type="slide" />
+            <slidelink slideid="_player.5rZr3kMoJav.6eHmFGEIcOa" displaytext="Competition" expand="false" type="slide" />
             <slidelink slideid="_player.5rZr3kMoJav.6cRdUQzDUbS" displaytext="Mutualism" expand="false" type="slide" />
             <slidelink slideid="_player.5rZr3kMoJav.6rI1uELWSED" displaytext="Definitions 1" expand="false" type="slide" />
             <slidelink slideid="_player.5rZr3kMoJav.6bQ1m7wcY6a" displaytext="Definitions 2" expand="false" type="slide" />
@@ -1228,6 +1253,7 @@
             <slidelink slideid="_player.5rZr3kMoJav.5cMXO7LWxmg" displaytext="invasive species" expand="false" type="slide" />
             <slidelink slideid="_player.5rZr3kMoJav.6oUNmJdAEm3" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5rZr3kMoJav.5avBN6xZrOZ" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5rZr3kMoJav.5mTkpX1fgJY" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5rZr3kMoJav.6kWaggiwlma" displaytext="barred owl vid" expand="false" type="slide" />
             <slidelink slideid="_player.5rZr3kMoJav.5lyOrANB31C" displaytext="crow vid" expand="false" type="slide" />
             <slidelink slideid="_player.5rZr3kMoJav.6dVIHSE4HYN" displaytext="clownfish vid" expand="false" type="slide" />
