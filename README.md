@@ -25,7 +25,7 @@ Currently the available storyline presentations are:
     - [Wolf Kiosk](./Kiosks/Wolf%20Kiosk/story.html)
 - Live Animal Shows
     - [Adaptations](./Live%20Animal%20Shows/Adaptations/story.html)
-    - [Animal Comparisons](./Live%20Animal%20Shows/Animal%20Comparisons/story.html)
+    - [Needs of Living Things](./Live%20Animal%20Shows/Animal%20Comparisons/story.html)
     - [Classification](./Live%20Animal%20Shows/Classification/story.html)
     - [Interactions in Ecosystems](./Live%20Animal%20Shows/Ecosystems/story.html)
     - [Energy Matters](./Live%20Animal%20Shows/Energy%20Matters/story.html)
