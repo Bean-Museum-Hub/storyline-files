@@ -6,6 +6,7 @@
     <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
     <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
     <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="pnxanbnsnfns00000000001" font="Open Sans" controllayout="pnxanbnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -201,6 +202,29 @@
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
     </control_layout>
   </control_layouts>
   <colorschemes>
@@ -1177,6 +1201,8 @@
             <slidelink slideid="_player.60P2if2vbKx.5lOPZg91Yr9" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.60P2if2vbKx.5qDsWXVC2OE" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.60P2if2vbKx.616p3PC8VW4" displaytext="Matching slide" expand="false" type="slide" />
+            <slidelink slideid="_player.60P2if2vbKx.6PCsWoorY4B" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.60P2if2vbKx.6UFnoAwz8Ul" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.60P2if2vbKx.693gFwKd53s" displaytext="rattlesnake" expand="false" type="slide" />
             <slidelink slideid="_player.60P2if2vbKx.6YV6oj14nqT" displaytext="grizzly bear" expand="false" type="slide" />
             <slidelink slideid="_player.60P2if2vbKx.5UnI3zHJJDX" displaytext="brown owl" expand="false" type="slide" />

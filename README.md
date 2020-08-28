@@ -1,8 +1,7 @@
 # mlbm-storyline
-MLBM Storyline Kiosks
+MLBM Storyline Files
 
-This repo holds the storyline output for various kiosks and presentations in the Monte L Bean Life Science Museum. You can access the different presentations at the [Github Pages Site](https://kebowdog.github.io/mlbm-storyline/).
-
+This repository holds the storyline output for various kiosks and presentations in the Monte L Bean Life Science Museum. 
 Currently the available storyline presentations are:
 - Curiosity Carts
     - [Fur Cart](./Curiosity%20Carts/Fur%20Cart/story.html) 
@@ -26,9 +25,9 @@ Currently the available storyline presentations are:
     - [Wolf Kiosk](./Kiosks/Wolf%20Kiosk/story.html)
 - Live Animal Shows
     - [Adaptations](./Live%20Animal%20Shows/Adaptations/story.html)
-    - [Animal Comparisons](./Live%20Animal%20Shows/Animal%20Comparisons/story.html)
+    - [Needs of Living Things](./Live%20Animal%20Shows/Animal%20Comparisons/story.html)
     - [Classification](./Live%20Animal%20Shows/Classification/story.html)
-    - [Ecosystems](./Live%20Animal%20Shows/Ecosystems/story.html)
+    - [Interactions in Ecosystems](./Live%20Animal%20Shows/Ecosystems/story.html)
     - [Energy Matters](./Live%20Animal%20Shows/Energy%20Matters/story.html)
     - [Family Patterns](./Live%20Animal%20Shows/Family%20Patterns/story.html)
     - [Habitat Hunters](./Live%20Animal%20Shows/Habitat%20Hunters/story.html)
