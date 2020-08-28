@@ -38,3 +38,4 @@ Currently the available storyline presentations are:
     - [Tour Videos](./Live%20Animal%20Shows/Tour%20Videos/story.html)
     - [Utah's Diversity](./Live%20Animal%20Shows/Utah's%20Diversity/story.html)
     - [Vertebrate Variety](./Live%20Animal%20Shows/Vertebrate%20Variety/story.html)
+    - [Biodiversity](./Live%20Animal%20Shows/biodiversity/story.html)
