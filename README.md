@@ -40,4 +40,4 @@ Currently the available storyline presentations are:
     - [Tour Videos](./Programs/Tour%20Videos/story.html)
     - [Utah's Diversity](./Programs/Utah's%20Diversity/story.html)
     - [Vertebrate Variety](./Programs/Vertebrate%20Variety/story.html)
-    - [Winter FHE](./Programss/Winter%20FHE/story.html)
+    - [Winter FHE](./Programs/Winter%20FHE/story.html)
