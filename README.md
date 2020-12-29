@@ -23,7 +23,7 @@ Currently the available storyline presentations are:
     - [Intro Kiosk](./Kiosks/Intro%20Kiosk/story.html)
     - [Search for life](./Kiosks/Search%20for%20life/story.html)
     - [Wolf Kiosk](./Kiosks/Wolf%20Kiosk/story.html)
-- Live Animal Shows
+- Programs
     - [Adaptations](./Live%20Animal%20Shows/Adaptations/story.html)
     - [Biodiversity](./Live%20Animal%20Shows/biodiversity/story.html)
     - [Classification](./Live%20Animal%20Shows/Classification/story.html)
