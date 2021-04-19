@@ -28,6 +28,7 @@ Currently the available storyline presentations are:
     - [Accessibility](./Programs/Accessibility%20program/story.html)
     - [Biodiversity](./Programs/Biodiversity/story.html)
     - [Classification](./Programs/Classification/story.html)
+    - [Connect Four](./Programs/Connect%20Four/story.html)
     - [Energy Matters](./Programs/Energy%20Matters/story.html)
     - [Family Patterns](./Programs/Family%20Patterns/story.html)
     - [Fall FHE](./Programs/Fall%20FHE/story.html)
