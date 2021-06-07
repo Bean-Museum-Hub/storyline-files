@@ -42,6 +42,7 @@ Currently the available storyline presentations are:
     - [Preshow Slideshow](./Programs/Preshow%20Slideshow/story.html)
     - [Spooky Live Animal Show](./Programs/Spooky%20Live%20Animal%20Show/story.html)
     - [Tour Videos](./Programs/Tour%20Videos/story.html)
+    - [Temperate Forests](./Programs/Temperate%20Forests/story.html)
     - [Utah's Diversity](./Programs/Utah's%20Diversity/story.html)
     - [Vertebrate Variety](./Programs/Vertebrate%20Variety/story.html)
     - [Winter FHE](./Programs/Winter%20FHE/story.html)
