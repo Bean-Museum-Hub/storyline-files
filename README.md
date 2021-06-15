@@ -29,6 +29,7 @@ Currently the available storyline presentations are:
     - [Biodiversity](./Programs/Biodiversity/story.html)
     - [Classification](./Programs/Classification/story.html)
     - [Connect Four](./Programs/Connect%20Four/story.html)
+    - [Coral Reefs](./Programs/Coral%20Reefs/story.html)
     - [Energy Matters](./Programs/Energy%20Matters/story.html)
     - [Family Patterns](./Programs/Family%20Patterns/story.html)
     - [Fall FHE](./Programs/Fall%20FHE/story.html)
