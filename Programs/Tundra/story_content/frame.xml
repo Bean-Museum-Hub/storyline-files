@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxabnsnfns00000000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns00000000001" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npxabnsnfns00000000001" string_table="npxabnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npxabnsnfns00000000001" string_table="npxabnsnfns00000000001" />
-    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npxabnsnfns00000000001" string_table="npxabnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npxabnsnfns00000000001" string_table="npxabnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npxabnsnfns00000000001" string_table="npxabnsnfns00000000001" />
-    <layout name="npxabnsnfns00000000001" font="Open Sans" controllayout="npxabnsnfns00000000001" colorscheme="npxabnsnfns00000000001" string_table="npxabnsnfns00000000001" />
-    <layout name="pnxanbnsnfns00000000001" font="Open Sans" controllayout="pnxanbnsnfns00000000001" colorscheme="npxabnsnfns00000000001" string_table="npxabnsnfns00000000001" />
+    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npxnabnsnfns00000000001" string_table="npxnabnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npxnabnsnfns00000000001" string_table="npxnabnsnfns00000000001" />
+    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npxnabnsnfns00000000001" string_table="npxnabnsnfns00000000001" />
+    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npxnabnsnfns00000000001" string_table="npxnabnsnfns00000000001" />
+    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npxnabnsnfns00000000001" string_table="npxnabnsnfns00000000001" />
+    <layout name="pnxanbnsnfns00000000001" font="Open Sans" controllayout="pnxanbnsnfns00000000001" colorscheme="npxnabnsnfns00000000001" string_table="npxnabnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -206,29 +205,6 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npxabnsnfns00000000001">
-      <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="true" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
     <control_layout name="pnxanbnsnfns00000000001">
       <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
@@ -254,7 +230,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npxabnsnfns00000000001">
+    <colorscheme name="npxnabnsnfns00000000001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1171,7 +1147,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npxabnsnfns00000000001">
+    <string_table name="npxnabnsnfns00000000001">
       <string id="acc_active">active</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
@@ -1238,30 +1214,39 @@
             <slidelink slideid="_player.6Bo7Ic4j2oJ.6a0FztXvJX5" displaytext="Is this the tundra?" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.5k74tbwyB5s" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.5Xq1xKGZF9u" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Bo7Ic4j2oJ.5kXnrsB348y" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.6k4r4r6cjoI" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.6p4Hiqy9Goh" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.6DwwX9DyctJ" displaytext="Drag and Drop" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.5fxgW5pukJx" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5zUckJRXhlm" displaytext="Alpine Tundra" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6EhpqXK0ND3" displaytext="Alpine Tundra" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5woCMk6bObC" displaytext="Andes Mountains" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.6r1PaQgRFeK" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.5ayljbpbncW" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.6pjlweZlrXM" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5bU4MyxHgvY" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6QPtvcoliMY" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5wXefNwUZG7" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6Dh5GAYnO39" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6NRnr2AvIPn" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.6jZG1AF8ibJ" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.5rmlk8hzZfT" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.60BM6EFHzqw" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5o1xlpjjILB" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.6Zrib0iiiRZ" displaytext="Narwal" expand="false" type="slide" />
-            <slidelink slideid="_player.6Bo7Ic4j2oJ.5ktfZQeoWXD" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Bo7Ic4j2oJ.5gW4U7Vuz2N" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.6HPHXClNOW9" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.5rmdnFcGTQZ" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Bo7Ic4j2oJ.6FSjwurN5hL" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.67KBGXpx2gn" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.6eMUyZfoaiD" displaytext="Why should we care?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.62V0cXfHVTe" displaytext="Why should we care?" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6Ms96n5ySlM" displaytext="Why should we care?" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.6C1EK2S2F1X" displaytext="Carpool" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.6mfTR2hxIxg" displaytext="Politicians" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.6cZD5AYlBYa" displaytext="Speak Up" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.5fdtzlP2D1h" displaytext="Sustainable Companies" expand="false" type="slide" />
-            <slidelink slideid="_player.6Bo7Ic4j2oJ.6QGVJKzEzrS" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6lfzonTtkGq" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.66W3swpCIWb" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6Vnw2Gdfg1L" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6Bo7Ic4j2oJ.6ckMMuEIWWs" displaytext="Why should we care?" expand="false" type="slide" />
           </links>
         </slidelink>
@@ -1270,18 +1255,19 @@
             <slidelink slideid="_player.6QeFOTg7nHC.6MtIEMdvVhz" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6QeFOTg7nHC.6SQ5sFKAPTH" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6QeFOTg7nHC.5kLhEX2G3G4" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.6LIv0kMwHkI" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.6LuheDlNfHd" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.5dGHIjPE3xL" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.5lS5NXdH4DY" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.5jRk1jazIJv" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.6bMnztxYERD" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.6g3eCKM8TRP" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.6em5s4ZSem5" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.5bzYiM1A8C0" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.5a4sOuMSkdM" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.5mG1K6gAFWF" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.5mLRmf6hfGI" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6LIv0kMwHkI" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6LuheDlNfHd" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5dGHIjPE3xL" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5lS5NXdH4DY" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5jRk1jazIJv" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6bMnztxYERD" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6g3eCKM8TRP" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6em5s4ZSem5" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5bzYiM1A8C0" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6jolDJ3rdj9" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5mG1K6gAFWF" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5mLRmf6hfGI" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6kRWtl2MpYb" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6QeFOTg7nHC.6NYMtozU3F1" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6QeFOTg7nHC.6b1jmvmF7gF" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6QeFOTg7nHC.6ZxhQeTzuk2" displaytext="Untitled Slide" expand="false" type="slide" />
@@ -1298,15 +1284,17 @@
             <slidelink slideid="_player.6QeFOTg7nHC.6oDut7vfJrQ" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6QeFOTg7nHC.6gbVKjsZIRC" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6QeFOTg7nHC.5rGvR46NFA3" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.6dP6c5RcKtu" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.6qoRiefOBsd" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.6ScLChiRtrW" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.6AtvYW73nT5" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.6hsqRXraVvF" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.5bM9qaKH4Ka" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6dP6c5RcKtu" displaytext="Rockies" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6qoRiefOBsd" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6ScLChiRtrW" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6AtvYW73nT5" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6hsqRXraVvF" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5bM9qaKH4Ka" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5kGgWaowqnn" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6QeFOTg7nHC.6WX9HD55Afn" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.5YTQleiu0NI" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.5iIAHU2oDDo" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5YTQleiu0NI" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5iIAHU2oDDo" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.60di3fZjXAS" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6QeFOTg7nHC.6c8SkimGEyV" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6QeFOTg7nHC.6QfQoRI5TEl" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6QeFOTg7nHC.60nbtrZyXAt" displaytext="Untitled Slide" expand="false" type="slide" />
@@ -1314,8 +1302,9 @@
             <slidelink slideid="_player.6QeFOTg7nHC.6iqUEm1gTxq" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6QeFOTg7nHC.6eZ1TAzvVWO" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6QeFOTg7nHC.6I6rUqrPOJH" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.5cx596XeDWC" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6QeFOTg7nHC.5mbI5I43Gey" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5cx596XeDWC" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.5mbI5I43Gey" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6Bo7Ic4j2oJ.6gryzCZYidO" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6QeFOTg7nHC.6l67fwrmYEm" displaytext="Untitled Slide" expand="false" type="slide" />
           </links>
         </slidelink>
