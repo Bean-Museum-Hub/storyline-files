@@ -24,6 +24,7 @@ Currently the available storyline presentations are:
     - [Search for life](./Kiosks/Search%20for%20life/story.html)
     - [Wolf Kiosk](./Kiosks/Wolf%20Kiosk/story.html)
     - [Evolution Kiosk](./Kiosks/Evolution%20kiosk%20game/story.html)
+    - [Adaptations Kiosk](./Kiosks/Natural%20Selection%20Game/story.html)
 - Programs
     - [Adaptations](./Programs/Adaptations/story.html)
     - [Accessibility](./Programs/Accessibility%20program/story.html)
