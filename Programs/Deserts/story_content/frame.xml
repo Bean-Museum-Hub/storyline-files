@@ -1149,51 +1149,51 @@
   <string_tables>
     <string_table name="npxnabnsnfns00000000001">
       <string id="acc_active">active</string>
-      <string id="acc_closed_captions">Closed captions.</string>
-      <string id="acc_definition">definition</string>
-      <string id="acc_finish">finish</string>
-      <string id="acc_next">next</string>
-      <string id="acc_pause">pause</string>
-      <string id="acc_play">play</string>
-      <string id="acc_previous">previous</string>
-      <string id="acc_replay">replay</string>
-      <string id="acc_resources">resources</string>
-      <string id="acc_search_input">search</string>
-      <string id="acc_skipnavigation">Back to top.</string>
-      <string id="acc_submit">submit</string>
-      <string id="acc_submitall">submit all</string>
-      <string id="acc_volume">volume</string>
-      <string id="bio">Bio</string>
       <string id="check_include">Check to include</string>
       <string id="clear">Clear and return to menu</string>
       <string id="close">Close</string>
-      <string id="closed_captions">Captions</string>
+      <string id="acc_closed_captions">Closed captions.</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
-      <string id="definition">Definition</string>
-      <string id="disabled_orientation">Please rotate your device</string>
       <string id="exit">Exit</string>
       <string id="filter">Filter</string>
       <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
       <string id="glossary">Glossary</string>
-      <string id="more_info">More info</string>
-      <string id="next">NEXT</string>
+      <string id="terms">Terms</string>
       <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
       <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
       <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
       <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
       <string id="restart">Restart</string>
       <string id="resume">Resume</string>
       <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
       <string id="search_in">Search in:</string>
       <string id="search_results">Search Results</string>
-      <string id="send_an_email">Send an email</string>
+      <string id="acc_skipnavigation">Back to top.</string>
       <string id="slide_text_chk">Slide Text</string>
-      <string id="submit">SUBMIT</string>
       <string id="submitall">SUBMIT ALL</string>
-      <string id="terms">Terms</string>
-      <string id="transcript">Notes</string>
-      <string id="transcript_chk">Notes</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
     </string_table>
   </string_tables>
   <fonts>
@@ -1223,10 +1223,14 @@
             <slidelink slideid="_player.5tQzvQu1mFO.6GplwCSBDeE" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5tQzvQu1mFO.5gKBcNXoXQ5" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5tQzvQu1mFO.6fFDAZVTvFT" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tQzvQu1mFO.6peokVdAlBh" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tQzvQu1mFO.5W1g9Mna5Yo" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tQzvQu1mFO.5ioCZTeUD90" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5tQzvQu1mFO.6V84qAArYys" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5tQzvQu1mFO.6ncToXghSuW" displaytext="Great Basin Desert" expand="false" type="slide" />
+            <slidelink slideid="_player.5tQzvQu1mFO.6myxzCdBL4R" displaytext="Mojave Desert" expand="false" type="slide" />
+            <slidelink slideid="_player.5tQzvQu1mFO.6W4DsL7IUW0" displaytext="Atacama Desert" expand="false" type="slide" />
+            <slidelink slideid="_player.5tQzvQu1mFO.6bysDimWrpv" displaytext="Tabernas Desert" expand="false" type="slide" />
+            <slidelink slideid="_player.5tQzvQu1mFO.5zZcfD5Z8kx" displaytext="Sahara Desert" expand="false" type="slide" />
+            <slidelink slideid="_player.5tQzvQu1mFO.5jScOVWR1J1" displaytext="Gobi Desert" expand="false" type="slide" />
+            <slidelink slideid="_player.5tQzvQu1mFO.6X1VacemXWb" displaytext="Central Australia" expand="false" type="slide" />
+            <slidelink slideid="_player.5tQzvQu1mFO.5XSSpURfyGD" displaytext="Antactic Desert" expand="false" type="slide" />
             <slidelink slideid="_player.5tQzvQu1mFO.6KDXhE52TcQ" displaytext="Why Deserts Matter" expand="false" type="slide" />
             <slidelink slideid="_player.5tQzvQu1mFO.6eZtX4TwxNy" displaytext="Biodiversity" expand="false" type="slide" />
             <slidelink slideid="_player.5tQzvQu1mFO.66Jr1mL29yG" displaytext="Great basin rattlesnake" expand="false" type="slide" />
@@ -1236,6 +1240,7 @@
             <slidelink slideid="_player.5tQzvQu1mFO.5zQSriMHZpy" displaytext="Mineral Deposits" expand="false" type="slide" />
             <slidelink slideid="_player.5tQzvQu1mFO.602TlTcoLST" displaytext="Carbon Sinks" expand="false" type="slide" />
             <slidelink slideid="_player.5tQzvQu1mFO.6XRbap8XCcr" displaytext="Erosion Protection" expand="false" type="slide" />
+            <slidelink slideid="_player.5tQzvQu1mFO.611kXV2MKwL" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.5tQzvQu1mFO.6LNLYTObKE7" displaytext="Conservation" expand="false" type="slide" />
             <slidelink slideid="_player.5tQzvQu1mFO.6Xdf5jw3Ylx" displaytext="Conservation" expand="false" type="slide" />
             <slidelink slideid="_player.5tQzvQu1mFO.62itTKVvx66" displaytext="Conservation" expand="false" type="slide" />
