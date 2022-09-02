@@ -6,6 +6,7 @@ Currently the available storyline presentations are:
 - Curiosity Carts
     - [Flamingo](./Curiosity%20Carts/Flamingo/story.html) 
     - [Blue Marlin](./Curiosity%20Carts/Blue%20Marlin/story.html) 
+    - [Praying Mantis](./Curiosity%20Carts/Praying%20Mantis/story.html) 
     - [Fur Cart](./Curiosity%20Carts/Fur%20Cart/story.html) 
     - [Tree Cart](./Curiosity%20Carts/Tree%20Cart/story.html)  
 - Exhibits
