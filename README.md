@@ -49,6 +49,7 @@ Currently the available storyline presentations are:
     - [Nature Interactions](./Programs/Nature%20Interactions/story.html)
     - [Needs of Living Things](./Programs/Animal%20Comparisons/story.html)
     - [Physical Traits](./Programs/Physical%20Traits/story.html)
+    - [PLC Critter Camp](./Programs/PLC%20Critter%20Camp/story.html)
     - [Preshow Slideshow](./Programs/Preshow%20Slideshow/story.html)
     - [Rainforests](./Programs/Rainforests/story.html)
     - [Savanna](./Programs/Savanna/story.html)
