@@ -6,6 +6,7 @@
     <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
     <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
     <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
+    <layout name="pnxanbnsnfns00000000001" font="Open Sans" controllayout="pnxanbnsnfns00000000001" colorscheme="pxabnsnfns00000000001" string_table="pxabnsnfns00000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -205,6 +206,29 @@
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns00000000001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
     </control_layout>
   </control_layouts>
   <colorschemes>
@@ -1294,10 +1318,10 @@
             <slidelink slideid="_player.6UjLc0t6h3K.5xnp3GuYues" displaytext="Home Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6UjLc0t6h3K.6EXHAjpd6Jx" displaytext="Critterpedia" expand="false" type="slide" />
             <slidelink slideid="_player.6UjLc0t6h3K.6hwtOdSNAQN" displaytext="Crafting" expand="false" type="slide" />
-            <slidelink slideid="_player.6UjLc0t6h3K.6AIbsp8AKgF" displaytext="Fruit Trade" expand="false" type="slide" />
             <slidelink slideid="_player.6UjLc0t6h3K.6Vmx1mT6WOo" displaytext="Special Program" expand="false" type="slide" />
             <slidelink slideid="_player.6UjLc0t6h3K.6rcnEXXIhYl" displaytext="Carts" expand="false" type="slide" />
             <slidelink slideid="_player.6UjLc0t6h3K.6MwsviLW21G" displaytext="Social Media" expand="false" type="slide" />
+            <slidelink slideid="_player.6UjLc0t6h3K.6AIbsp8AKgF" displaytext="Fruit Trade" expand="false" type="slide" />
             <slidelink slideid="_player.6UjLc0t6h3K.6FskaX8svGa" displaytext="Citizen Science" expand="false" type="slide" />
           </links>
         </slidelink>
