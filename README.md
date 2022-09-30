@@ -4,6 +4,7 @@ MLBM Storyline Files
 This repository holds the storyline output for various kiosks and presentations in the Monte L Bean Life Science Museum. 
 Currently the available storyline presentations are:
 - Curiosity Carts
+    - [October OOTM Bactrian Camel](./Curiosity%20Carts/October%20OOTM%20Bactrian%20Camel/story.html) 
     - [Praying Mantis](./Curiosity%20Carts/Praying%20Mantis/story.html) 
     - [Fur Cart](./Curiosity%20Carts/Fur%20Cart/story.html) 
     - [Tree Cart](./Curiosity%20Carts/Tree%20Cart/story.html)  
