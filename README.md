@@ -6,7 +6,7 @@ Currently the available storyline presentations are:
 - Curiosity Carts
     - [Fur Cart](./Curiosity%20Carts/Fur%20Cart/story.html) 
     - [Tree Cart](./Curiosity%20Carts/Tree%20Cart/story.html)  
-    - [November OOTM Prickly Pear](./Curiosity%20Carts/November%20OOTM%20Prickly%20Pear/story.html) 
+    - [December OOTM American Badger](./Curiosity%20Carts/December%20OOTM%20American%20Badger/story.html)  
 - Exhibits
     - Quest for Knowledge
         - [Arthropods](./Exhibits/Quest%20For%20Knowledge/Arthropods/story.html)
