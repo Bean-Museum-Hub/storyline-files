@@ -4,9 +4,9 @@ MLBM Storyline Files
 This repository holds the storyline output for various kiosks and presentations in the Monte L Bean Life Science Museum. 
 Currently the available storyline presentations are:
 - Curiosity Carts
+    - [December OOTM American Badger](./Curiosity%20Carts/December%20OOTM%20American%20Badger/story.html) 
     - [Fur Cart](./Curiosity%20Carts/Fur%20Cart/story.html) 
     - [Tree Cart](./Curiosity%20Carts/Tree%20Cart/story.html)  
-    - [December OOTM American Badger](./Curiosity%20Carts/December%20OOTM%20American%20Badger/story.html)  
 - Exhibits
     - Quest for Knowledge
         - [Arthropods](./Exhibits/Quest%20For%20Knowledge/Arthropods/story.html)
