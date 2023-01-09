@@ -1,7 +1,7 @@
 # mlbm-storyline
 MLBM Storyline Files
 
-This repository holds the storyline output for various kiosks and presentations in the Monte L Bean Life Science Museum. 
+This repository holds the storyline output for various kiosks and presentations in the Bean Life Science Museum. 
 Currently the available storyline presentations are:
 - Curiosity Carts
     - [December OOTM American Badger](./Curiosity%20Carts/December%20OOTM%20American%20Badger/story.html) 
