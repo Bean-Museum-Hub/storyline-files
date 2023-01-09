@@ -20,7 +20,7 @@ Currently the available storyline presentations are:
         - [Why Science?](./Exhibits/Quest%20For%20Knowledge/Why%20Science/story.html)
 - Kiosks
     - [Bird Kiosk](./Kiosks/Bird%20Kiosk/story.html)
-    - [Climate Stories Map Kiosk](./Kiosks/Climate%20Stories&20Map/story.html)
+    - [Climate Stories Map](./Kiosks/Climate%20Stories&20Map/story.html)
     - [Cosmos Bistro](./Kiosks/Cosmos%20Bistro/story.html)
     - [Insect Kiosk](./Kiosks/Insect%20Kiosk/story.html)
     - [Intro Kiosk](./Kiosks/Intro%20Kiosk/story.html)
