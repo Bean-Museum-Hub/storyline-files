@@ -42,7 +42,6 @@ Currently the available storyline presentations are:
     - [Kelp Forests](./Programs/Kelp%20Forests/story.html)
     - [Needs of Living Things](./Programs/Animal%20Comparisons/story.html)
     - [Physical Traits](./Programs/Physical%20Traits/story.html)
-    - [Preshow Slideshow](./Programs/Preshow%20Slideshow/story.html)
     - [Rainforests](./Programs/Rainforests/story.html)
     - [Savanna](./Programs/Savanna/story.html)
     - [Spooky Live Animal Show](./Programs/Spooky%20Live%20Animal%20Show/story.html)
