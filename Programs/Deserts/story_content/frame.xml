@@ -75,6 +75,7 @@
             </options>
           </option>
           <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -1186,16 +1187,25 @@
       <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
       <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
       <string id="accessible_text">Accessible text</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
-      <string id="acc_modern_video_captions">video captions</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">fullscreen</string>
+      <string id="modern_video_playback_settings">playback settings</string>
+      <string id="modern_video_captions_off">off</string>
+      <string id="modern_video_captions_on">on</string>
+      <string id="modern_video_captions_label">captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
       <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
       <string id="acc_modern_video_pause">pause video</string>
       <string id="acc_modern_video_pip">Picture-in-Picture</string>
       <string id="acc_modern_video_play">play video</string>
-      <string id="modern_video_playback_settings">playback settings</string>
+      <string id="modern_video_playback_speed_title">Playback speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
       <string id="acc_modern_video_playback_speed">Playback speed</string>
-      <string id="acc_modern_video_settings">video settings</string>
       <string id="acc_modern_video_volume">video volume</string>
       <string id="acc_active">active</string>
       <string id="alt_key">Alt</string>
@@ -1231,18 +1241,12 @@
       <string id="submit_shortcut">Submit slide</string>
       <string id="acctext_shortcut">Toggle accessible text</string>
       <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
       <string id="togglezoom">Toggle zoom to fit</string>
       <string id="outline">Menu</string>
       <string id="disabled_orientation">Please rotate your device</string>
       <string id="progress_minute">minute</string>
       <string id="progress_minutes">minutes</string>
-      <string id="acc_modern_video_fullscreen">fullscreen</string>
-      <string id="modern_video_captions_label">captions</string>
-      <string id="modern_video_captions_off">off</string>
-      <string id="modern_video_captions_on">on</string>
-      <string id="modern_video_normal_speed">Normal</string>
-      <string id="modern_video_playback_speed_title">Playback speed</string>
-      <string id="modern_video_settings_close">close video settings</string>
       <string id="mute_tip">Mute</string>
       <string id="next">NEXT</string>
       <string id="acc_next">next</string>
