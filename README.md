@@ -37,6 +37,7 @@ Currently the available storyline presentations are:
     - [Energy Matters](./Programs/Energy%20Matters/story.html)
     - [Family Patterns](./Programs/Family%20Patterns/story.html)
     - [Fall FHE](./Programs/Fall%20FHE/story.html)
+    - [FHE Program](./Programs/FHE%20Program/story.html)
     - [Habitat Hunters](./Programs/Habitat%20Hunters/story.html)
     - [Interactions in Ecosystems](./Programs/Ecosystems/story.html)
     - [Kelp Forests](./Programs/Kelp%20Forests/story.html)
