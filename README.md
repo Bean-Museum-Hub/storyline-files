@@ -31,7 +31,7 @@ Currently the available storyline presentations are:
     - [Next Strain](./Kiosks/Next%20Strain/story.html)
 - Programs
     - [Accessibility](./Programs/Accessibility%20program/story.html)
-    - [Animal Discovery](./Programs/Animal&20Discovery/story.html)
+    - [Animal Discovery](./Programs/Animal%20Discovery/story.html)
     - [Biodiversity](./Programs/Biodiversity/story.html)
     - [Coral Reefs](./Programs/Coral%20Reefs/story.html)
     - [Deserts](./Programs/Deserts/story.html)
