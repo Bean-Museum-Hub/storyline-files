@@ -50,7 +50,7 @@ Currently the available storyline presentations are:
     - [Tour Videos](./Programs/Tour%20Videos/story.html)
     - [Temperate Forests](./Programs/Temperate%20Forests/story.html)
     - [Tundra](./Programs/Tundra/story.html)
-    - [Utah's Diversity](./Programs/Utah's%20Diversity/story.html)
+    - [Utahs Diversity](./Programs/Utahs%20Diversity/story.html)
     - [Vertebrate Variety](./Programs/Vertebrate%20Variety/story.html)
     - [Wetlands](./Programs/Wetlands/story.html)
     - [Winter FHE](./Programs/Winter%20FHE/story.html)
