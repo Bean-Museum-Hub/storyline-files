@@ -4,7 +4,7 @@ MLBM Storyline Files
 This repository holds the storyline output for various kiosks and presentations in the Bean Life Science Museum. 
 Currently the available storyline presentations are:
 - Curiosity Carts
-    - [February OOTM Mountain Whitefish](./Curiosity%20Carts/February%20OOTM%20Mountain%20Whitefish/story.html)
+    - [April OOTM Yellow Baboon](./Curiosity%20Carts/April%20OOTM%20Yellow%20Baboon/story.html)
     - [Fur Cart](./Curiosity%20Carts/Fur%20Cart/story.html) 
     - [Tree Cart](./Curiosity%20Carts/Tree%20Cart/story.html)  
 - Exhibits
