@@ -6,6 +6,7 @@ Currently the available storyline presentations are:
 - Curiosity Carts
     - [April OOTM Yellow Baboon](./Curiosity%20Carts/April%20OOTM%20Yellow%20Baboon/story.html)
     - [Fur Cart](./Curiosity%20Carts/Fur%20Cart/story.html) 
+    - [Red Eared Slider OotM](./Curiosity%20Carts/Red%20Eared%20Slider%20OotM/story.html)
     - [Tree Cart](./Curiosity%20Carts/Tree%20Cart/story.html)  
 - Exhibits
     - Quest for Knowledge
