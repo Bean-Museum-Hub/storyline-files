@@ -22,6 +22,7 @@ Currently the available storyline presentations are:
     - [Bird Kiosk](./Kiosks/Bird%20Kiosk/story.html)
     - [Climate Stories Map Kiosk](./Kiosks/Climate%20Stories%20Map/story.html)
     - [Cosmos Bistro](./Kiosks/Cosmos%20Bistro/story.html)
+    - [Entrance Kiosk](./Kiosks/Entrance%20Kiosk/story.html)
     - [Insect Kiosk](./Kiosks/Insect%20Kiosk/story.html)
     - [Intro Kiosk](./Kiosks/Intro%20Kiosk/story.html)
     - [Search for life](./Kiosks/Search%20for%20life/story.html)
