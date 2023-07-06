@@ -35,6 +35,7 @@ Currently the available storyline presentations are:
     - [Accessibility](./Programs/Accessibility%20program/story.html)
     - [Animal Discovery](./Programs/Animal%20Discovery/story.html)
     - [Biodiversity](./Programs/Biodiversity/story.html)
+    - [Biomimicry](./Programs/Biomimicry/story.html)
     - [Coral Reefs](./Programs/Coral%20Reefs/story.html)
     - [Deserts](./Programs/Deserts/story.html)
     - [Energy Matters](./Programs/Energy%20Matters/story.html)
