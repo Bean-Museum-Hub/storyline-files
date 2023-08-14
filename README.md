@@ -10,6 +10,7 @@ Currently the available storyline presentations are:
     - [Red Eared Slider OotM](./Curiosity%20Carts/Red%20Eared%20Slider%20OotM/story.html)
     - [Tree Cart](./Curiosity%20Carts/Tree%20Cart/story.html) 
 - Exhibits
+    - [Alpine Biome](./Exhibits/Alpine%20Biome/story.html)
     - Quest for Knowledge
         - [Arthropods](./Exhibits/Quest%20For%20Knowledge/Arthropods/story.html)
         - [Herbarium](./Exhibits/Quest%20For%20Knowledge/Herbarium/story.html)
