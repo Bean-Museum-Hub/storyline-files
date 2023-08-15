@@ -8,7 +8,8 @@ Currently the available storyline presentations are:
     - [Fur Cart](./Curiosity%20Carts/Fur%20Cart/story.html)
     - [Kingfisher OotM](./Curiosity%20Carts/Kingfisher%20OotM/story.html) 
     - [Red Eared Slider OotM](./Curiosity%20Carts/Red%20Eared%20Slider%20OotM/story.html)
-    - [Tree Cart](./Curiosity%20Carts/Tree%20Cart/story.html) 
+    - [Tree Cart](./Curiosity%20Carts/Tree%20Cart/story.html)
+    - [Alpine Biome](./Exhibits/Alpine%20Biome/story.html)
 - Exhibits
     - [Alpine Biome](./Exhibits/Alpine%20Biome/story.html)
     - Quest for Knowledge
