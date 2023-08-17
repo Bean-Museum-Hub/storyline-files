@@ -10,6 +10,7 @@ Currently the available storyline presentations are:
     - [Red Eared Slider OotM](./Curiosity%20Carts/Red%20Eared%20Slider%20OotM/story.html)
     - [Tree Cart](./Curiosity%20Carts/Tree%20Cart/story.html)
     - [Alpine Biome](./Exhibits/Alpine%20Biome/story.html)
+    - [Test](./Exhibits/Test/story.html)
 - Exhibits
     - Utah
         - [Alpine Biome](./Exhibits/Utah/Alpine%20Biome/story.html)
