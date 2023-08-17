@@ -11,8 +11,9 @@ Currently the available storyline presentations are:
     - [Tree Cart](./Curiosity%20Carts/Tree%20Cart/story.html)
     - [Alpine Biome](./Exhibits/Alpine%20Biome/story.html)
 - Exhibits
-    - [Alpine Biome](./Exhibits/Alpine%20Biome/story.html)
-    - [Cold Desert Biome](./Exhibits/Cold%20Desert%20Biome/story.html)
+    - Utah
+        - [Alpine Biome](./Exhibits/Utah/Alpine%20Biome/story.html)
+        - [Cold Desert Biome](./Exhibits/Utah/Cold%20Desert%20Biome/story.html)
     - Quest for Knowledge
         - [Arthropods](./Exhibits/Quest%20For%20Knowledge/Arthropods/story.html)
         - [Herbarium](./Exhibits/Quest%20For%20Knowledge/Herbarium/story.html)
