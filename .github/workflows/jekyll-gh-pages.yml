@@ -24,7 +24,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest-m
+    runs-on: [self-hosted, Linux, X64]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
