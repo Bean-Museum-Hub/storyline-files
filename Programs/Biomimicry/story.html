@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <!-- Created using Storyline 360 - http://www.articulate.com  -->
-  <!-- version: 3.72.29654.0 -->
+  <!-- version: 3.78.30747.0 -->
   <title>Biomimicry</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
@@ -27,19 +27,19 @@
       scale: 'noscale',
       captureRc: false,
       browserSize: 'optimal',
-      bgColor: '#FFFFFF',
-      features: 'AccessibleVideo,ConnectionMessages,FullScreenToggle,InsertSvgPicture,LayerPresentAsDialog,MultipleQuizTracking,PlayerSpeedControl,UpdatedThemeEditor,UseAudioElement',
-      themeName: 'classic',
+      bgColor: '#282828',
+      features: 'AccessibleVideo,BgAudioBlip,ConnectionMessages,DropIn1,DropIn2,DropIn3,FullScreenToggle,LayerPresentAsDialog,MultipleQuizTracking,PlayerSpeedControl,StreamingVideo,UpdatedThemeEditor,UseAudioElement,VideoSync',
+      themeName: 'unified',
       preloaderColor: '#FFFFFF',
       suppressAnalytics: false,
       productChannel: 'stable',
       publishSource: 'storyline',
       aid: 'auth0|5aa2052c822bc6265fbbcac7',
       cid: '06568268-e715-4712-a858-313d38d33586',
-      playerVersion: '3.72.29654.0',
-      publishTimestamp: '2023-07-18T20:24:53.6307576Z',
+      playerVersion: '3.78.30747.0',
+      publishTimestamp: '2023-09-14T18:38:32.0818256Z',
       maxIosVideoElements: 10,
-      connectionSettings: { },
+      connectionSettings: { message: 'You%20are%20offline.%20Trying%20to%20reconnect...', useDarkTheme: false, mode: 'disabled' },
 
       
       parseParams: function(qs) {
@@ -73,7 +73,7 @@
   <script>window.THREE = { };</script>
   
 </head>
-<body style="background: #FFFFFF" class="cs-HTML theme-classic">
+<body style="background: #282828" class="cs-HTML theme-unified">
   <!-- 360 -->
   <script>!function(){var e,i=/iPhone/i,o=/iPod/i,n=/iPad/i,t=/\biOS-universal(?:.+)Mac\b/i,r=/\bAndroid(?:.+)Mobile\b/i,a=/Android/i,d=/(?:SD4930UR|\bSilk(?:.+)Mobile\b)/i,p=/Silk/i,l=/Windows Phone/i,u=/\bWindows(?:.+)ARM\b/i,b=/BlackBerry/i,s=/BB10/i,c=/Opera Mini/i,f=/\b(CriOS|Chrome)(?:.+)Mobile/i,h=/Mobile(?:.+)Firefox\b/i,v=function(e){return void 0!==e&&"MacIntel"===e.platform&&"number"==typeof e.maxTouchPoints&&e.maxTouchPoints>1&&"undefined"==typeof MSStream};e=function(e){var m={userAgent:"",platform:"",maxTouchPoints:0};e||"undefined"==typeof navigator?"string"==typeof e?m.userAgent=e:e&&e.userAgent&&(m={userAgent:e.userAgent,platform:e.platform,maxTouchPoints:e.maxTouchPoints||0}):m={userAgent:navigator.userAgent,platform:navigator.platform,maxTouchPoints:navigator.maxTouchPoints||0};var g=m.userAgent,y=g.split("[FBAN");void 0!==y[1]&&(g=y[0]),void 0!==(y=g.split("Twitter"))[1]&&(g=y[0]);var A=function(e){return function(i){return i.test(e)}}(g),w={apple:{phone:A(i)&&!A(l),ipod:A(o),tablet:!A(i)&&(A(n)||v(m))&&!A(l),universal:A(t),device:(A(i)||A(o)||A(n)||A(t)||v(m))&&!A(l)},amazon:{phone:A(d),tablet:!A(d)&&A(p),device:A(d)||A(p)},android:{phone:!A(l)&&A(d)||!A(l)&&A(r),tablet:!A(l)&&!A(d)&&!A(r)&&(A(p)||A(a)),device:!A(l)&&(A(d)||A(p)||A(r)||A(a))||A(/\bokhttp\b/i)},windows:{phone:A(l),tablet:A(u),device:A(l)||A(u)},other:{blackberry:A(b),blackberry10:A(s),opera:A(c),firefox:A(h),chrome:A(f),device:A(b)||A(s)||A(c)||A(h)||A(f)},any:!1,phone:!1,tablet:!1};return w.any=w.apple.device||w.android.device||w.windows.device||w.other.device,w.phone=w.apple.phone||w.android.phone||w.windows.phone,w.tablet=w.apple.tablet||w.android.tablet||w.windows.tablet,w}(),"object"==typeof exports&&"undefined"!=typeof module?module.exports=e:"function"==typeof define&&define.amd?define((function(){return e})):this.isMobile=e}();
     window.isMobile.apple.tablet = window.isMobile.apple.tablet ||
@@ -127,7 +127,7 @@
   <div class="slide-loader"></div>
 
   <script>
-    if (window.globals.deviceView.isMobile) { var doc = document, loader = doc.body.querySelector('.slide-loader'); [ 1, 2, 3 ].forEach(function(n) { var d = doc.createElement('div'); d.style.backgroundColor = window.globals.preloaderColor; d.classList.add('mobile-loader-dot'); d.classList.add('dot' + n); loader.appendChild(d); }); }
+    var doc = document, loader = doc.body.querySelector('.slide-loader'); [ 1, 2, 3 ].forEach(function(n) { var d = doc.createElement('div'); d.style.backgroundColor = window.globals.preloaderColor; d.classList.add('mobile-loader-dot'); d.classList.add('dot' + n); loader.appendChild(d); });
   </script>
 
   <div class="mobile-load-title-overlay" style="display: none">
@@ -239,22 +239,20 @@
       retryDelay: 500
     };
 
-    // @TODO this is POC code and can be cleaned up a bit more if we move forward
-    // with the feature
-
-
+    var connectionSettings = window.globals.connectionSettings || {};
 
     // The `window.globals.features` variable must be set in `webpack.dev.config` when testing locally - it is not enough
     // to have it in the data - but it must be set there as well.
     var useConnectionMessages = window.AbortController != null &&
       window.location.protocol != 'file:' &&
-      window.globals.features.indexOf('ConnectionMessages') != -1;
+      window.globals.features.indexOf('ConnectionMessages') != -1 &&
+      connectionSettings.mode === 'normal';
 
     window.DS.connection.useConnectionMessages = useConnectionMessages
 
     var assetCount = 0;
     var checkLoadedId;
-    var connectionSettings = window.globals.connectionSettings;
+
 
     if (useConnectionMessages && connectionSettings != null) {
       var contentEl = document.querySelector('.warn-connection-content');
@@ -344,7 +342,7 @@
     function assetFailed(url) {
       if (!useConnectionMessages) { return; }
       if (!DS.connection.assets[url]) {
-        if (/\.js$/.test(url)) {
+        if (/\.js$/.test(url) && url.indexOf('transcripts') === -1) {
           setTimeout(function() {
             if (DS.connection.lastSlideLoaded != null) {
               DS.connection.lastSlideLoaded();
