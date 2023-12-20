@@ -76,6 +76,7 @@
           </option>
           <option name="settings" value="false" />
           <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -1199,6 +1200,7 @@
       <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
       <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
       <string id="accessible_text">Accessible text</string>
+      <string id="background_audio">Background audio</string>
       <string id="acc_enter_fullscreen">Enter full-screen mode</string>
       <string id="acc_exit_fullscreen">Exit full-screen mode</string>
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
@@ -1255,6 +1257,7 @@
       <string id="shortcut">Shortcut</string>
       <string id="submit_shortcut">Submit slide</string>
       <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
       <string id="closedcaptions_shortcut">Toggle closed captions</string>
       <string id="fullscreen_shortcut">Toggle full-screen mode</string>
       <string id="togglezoom">Toggle zoom to fit</string>
@@ -1313,6 +1316,17 @@
       <string id="acc_submit">submit</string>
       <string id="submit_tip">Submit</string>
       <string id="unmute_tip">Unmute</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_video_transcript_list">Transcipt</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_modern_video_transcript">Open</string>
+      <string id="acc_window_resize">Resize window</string>
+      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
+      <string id="video_transcript_select_track">Select track</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_title">Transcripts</string>
+      <string id="acc_window_options">Options</string>
       <string id="acc_volume">volume</string>
     </string_table>
   </string_tables>
@@ -1373,6 +1387,7 @@
             <slidelink slideid="_player.66qydZK6aWF.6eTuwNNr9s1" displaytext="Flood Protection" expand="false" type="slide" />
             <slidelink slideid="_player.66qydZK6aWF.6jtnYeXQrZw" displaytext="river delta fish slide" expand="false" type="slide" />
             <slidelink slideid="_player.66qydZK6aWF.6DCMdp6iLT3" displaytext="Provo River Delta" expand="false" type="slide" />
+            <slidelink slideid="_player.66qydZK6aWF.5yCBXC7uzoj" displaytext="Conservation" expand="false" type="slide" />
           </links>
         </slidelink>
         <slidelink slideid="_player.6kGF9f2MGbT" displaytext="Untitled Scene" expand="true" type="slide">

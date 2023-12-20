@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <!-- Created using Storyline 360 - http://www.articulate.com  -->
-  <!-- version: 3.72.29654.0 -->
+  <!-- version: 3.81.31200.0 -->
   <title>Temperate Forests</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
@@ -28,7 +28,7 @@
       captureRc: false,
       browserSize: 'optimal',
       bgColor: '#FFFFFF',
-      features: 'AccessibleVideo,ConnectionMessages,FullScreenToggle,InsertSvgPicture,LayerPresentAsDialog,MultipleQuizTracking,PlayerSpeedControl,UpdatedThemeEditor,UseAudioElement',
+      features: 'BackgroundAudioTriggers,ConnectionMessages,DropIn1,DropIn2,DropIn3,DropIn4,DropIn5,LayerPresentAsDialog,MultiLineTextEntry,MultipleQuizTracking,UpdatedThemeEditor',
       themeName: 'classic',
       preloaderColor: '#FFFFFF',
       suppressAnalytics: false,
@@ -36,10 +36,10 @@
       publishSource: 'storyline',
       aid: 'auth0|5aa2052c822bc6265fbbcac7',
       cid: '8e017ce8-5d5e-4f5c-912d-44981297a980',
-      playerVersion: '3.72.29654.0',
-      publishTimestamp: '2023-04-03T18:42:00.9806570Z',
+      playerVersion: '3.81.31200.0',
+      publishTimestamp: '2023-12-20T18:09:30.3751526Z',
       maxIosVideoElements: 10,
-      connectionSettings: { },
+      connectionSettings: { mode: 'disabled' },
 
       
       parseParams: function(qs) {
@@ -141,7 +141,7 @@
   .warn-connection-dialog {
     display: none;
     background: transparent;
-    pointer-events: none;
+    pointer-events: all;
     position: fixed;
     left: 0;
     top: 0;
@@ -151,6 +151,7 @@
   }
 
   .warn-connection-content {
+    pointer-events: all;
     border-radius: 4px;
     background: white;
     border: 1px solid #E7E7E7;
@@ -219,14 +220,14 @@
   }
 </style>
 
-<div class="warn-connection-dialog">
+<div class="warn-connection-dialog" role="alertdialog" aria-modal="true" tabindex="0" aria-labelledby="warn-connection-message">
   <div class="warn-connection-content">
     <svg width="17" height="15" viewBox="0 0 17 15" xmlns="http://www.w3.org/2000/svg">
       <path fill="#8F0000" stroke="white" d="M16.07,12.98 L15.88,12.23 L9.51,1.21 C8.97,0.26,7.6,0.26,7.06,1.21 L0.69,12.23 C0.15,13.16,0.81,14.36,1.91,14.36 H14.65 C15.47,14.36,16.05,13.7,16.07,12.98 Z"/>
       <path fill="white" stroke="white" d="M8.58,5.5 C8.35,5.28,8.5,5.35,8.21,5.32 C8.09,5.35,7.97,5.49,7.96,5.67 C7.97,5.79,7.98,5.92,7.98,6.04 L7.98,6.04 C7.99,6.17,8,6.31,8.01,6.43 L8.01,6.44 C8.03,6.92,8.06,7.41,8.09,7.9 L8.09,7.9 C8.12,8.39,8.14,8.88,8.17,9.37 C8.17,9.39,8.18,9.42,8.2,9.44 C8.23,9.46,8.25,9.47,8.28,9.47 C8.31,9.47,8.34,9.46,8.35,9.44 C8.37,9.43,8.38,9.4,8.39,9.35 L8.39,9.34 C8.39,9.24,8.4,9.15,8.4,9.05 L8.4,9.05 C8.41,8.96,8.41,8.86,8.42,8.75 C8.43,8.44,8.45,8.12,8.47,7.81 L8.47,7.81 C8.49,7.49,8.51,7.18,8.53,6.87 C8.55,6.46,8.56,6.05,8.59,5.64 L8.6,5.62 C8.6,5.57,8.59,5.53,8.58,5.5 L8.21,5.32 Z"/>
       <circle fill="white" stroke="white" cx="8.3" cy="11.35" r="0.3"/>
     </svg>
-    <p>You are offline. Trying to reconnect...</p>
+    <p id="warn-connection-message">You are offline. Trying to reconnect...</p>
   </div>
 </div>
 
@@ -239,26 +240,24 @@
       retryDelay: 500
     };
 
-    // @TODO this is POC code and can be cleaned up a bit more if we move forward
-    // with the feature
-
-
+    var connectionSettings = window.globals.connectionSettings || {};
 
     // The `window.globals.features` variable must be set in `webpack.dev.config` when testing locally - it is not enough
     // to have it in the data - but it must be set there as well.
     var useConnectionMessages = window.AbortController != null &&
       window.location.protocol != 'file:' &&
-      window.globals.features.indexOf('ConnectionMessages') != -1;
+      window.globals.features.indexOf('ConnectionMessages') != -1 &&
+      connectionSettings.mode === 'normal';
 
-    window.DS.connection.useConnectionMessages = useConnectionMessages
+    window.DS.connection.useConnectionMessages = useConnectionMessages;
 
     var assetCount = 0;
     var checkLoadedId;
-    var connectionSettings = window.globals.connectionSettings;
+
 
     if (useConnectionMessages && connectionSettings != null) {
       var contentEl = document.querySelector('.warn-connection-content');
-      var messageEl = contentEl.querySelector('p')
+      var messageEl = contentEl.querySelector('p');
 
       if (connectionSettings.useDarkTheme) {
         contentEl.style.borderColor = '#BABBBA';
@@ -344,7 +343,7 @@
     function assetFailed(url) {
       if (!useConnectionMessages) { return; }
       if (!DS.connection.assets[url]) {
-        if (/\.js$/.test(url)) {
+        if (/\.js$/.test(url) && url.indexOf('transcripts') === -1) {
           setTimeout(function() {
             if (DS.connection.lastSlideLoaded != null) {
               DS.connection.lastSlideLoaded();
@@ -366,6 +365,7 @@
     function hideWarning() {
       document.body.classList.remove('is-offline');
       DS.connection.warningShown = false;
+      enableKeys();
     }
     DS.connection.hideWarning = hideWarning
 
@@ -373,6 +373,7 @@
       document.body.classList.add('is-offline')
       DS.connection.warningShown = true;
       updateWarningPosition();
+      disableKeys();
     }
 
     function updateWarningPosition() {
@@ -395,6 +396,40 @@
       }
 
       window.requestAnimationFrame(updateWarningPosition);
+    }
+
+    function onDisableKeyDown(e) {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+    }
+
+    function onDisableKeyUp(e) {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+    }
+
+    var accStyle = document.createElement('style');
+    var warnDialogEl = document.querySelector('.warn-connection-dialog');
+
+    function disableKeys() {
+      if (DS.views.nsStack.length === 1) {
+        DS.views.nsStack[0].tabReachable = false
+        DS.views.nsStack[0].updateTabIndex(true, true);
+      }
+
+      accStyle.innerHTML = '.acc-shadow-dom { display: none; }';
+      document.body.appendChild(accStyle);
+
+      warnDialogEl.parentNode.append(warnDialogEl);
+      warnDialogEl.focus();
+    }
+
+    function enableKeys() {
+      document.body.removeChild(accStyle);
+      if (DS.views.nsStack.length === 1 && DS.views.nsStack[0].name === '_frame') {
+        DS.views.nsStack[0].tabReachable = true;
+        DS.views.nsStack[0].updateTabIndex();
+      }
     }
 
     // these will all be noops if the feature flag isn't set in
