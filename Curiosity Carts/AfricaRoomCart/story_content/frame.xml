@@ -1,14 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<<< HEAD:Programs/Rainforest/story_content/frame.xml
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns00000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
-  <layouts>
-    <layout name="npnxnanbsnfns00000000001" font="Open Sans" controllayout="npnxnanbsnfns00000000001" colorscheme="npxnabnsnfns00000000001" string_table="npxnabnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000001" font="Open Sans" controllayout="pxabnsnfns00000000001" colorscheme="npxnabnsnfns00000000001" string_table="npxnabnsnfns00000000001" />
-    <layout name="npxnabnsnfns00000000001" font="Open Sans" controllayout="npxnabnsnfns00000000001" colorscheme="npxnabnsnfns00000000001" string_table="npxnabnsnfns00000000001" />
-    <layout name="npnxnanbnsnfns00000000001" font="Open Sans" controllayout="npnxnanbnsnfns00000000001" colorscheme="npxnabnsnfns00000000001" string_table="npxnabnsnfns00000000001" />
-    <layout name="pxabnsnfns00000000000" font="Open Sans" controllayout="pxabnsnfns00000000000" colorscheme="npxnabnsnfns00000000001" string_table="npxnabnsnfns00000000001" />
-    <layout name="pnxanbnsnfns00000000001" font="Open Sans" controllayout="pnxanbnsnfns00000000001" colorscheme="npxnabnsnfns00000000001" string_table="npxnabnsnfns00000000001" />
-========
 <bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00001100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
   <layouts>
     <layout name="npnxnanbsnfns00001100101" font="Lato" controllayout="npnxnanbsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
@@ -16,7 +6,6 @@
     <layout name="npxnabnsnfns00001100101" font="Lato" controllayout="npxnabnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
     <layout name="npnxnanbnsnfns00001100101" font="Lato" controllayout="npnxnanbnsnfns00001100101" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
     <layout name="pxabnsnfns00001100100" font="Lato" controllayout="pxabnsnfns00001100100" colorscheme="pxabnsnfns00001100101" string_table="pxabnsnfns00001100101" />
->>>>>>>> 36d096944be22c2b9d3f15e087b554af5564f254:Curiosity Carts/FurCart/story_content/frame.xml
   </layouts>
   <control_options>
     <optiongroups>
@@ -24,11 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-<<<<<<<< HEAD:Programs/Rainforest/story_content/frame.xml
-              <option name="title_text" value="Rainforest" />
-========
-              <option name="title_text" value="FurCart" />
->>>>>>>> 36d096944be22c2b9d3f15e087b554af5564f254:Curiosity Carts/FurCart/story_content/frame.xml
+              <option name="title_text" value="AfricaRoomCart" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -83,21 +68,12 @@
           <option name="pauseplay" value="false" />
           <option name="replay" value="false" />
           <option name="search" value="false" />
-<<<<<<<< HEAD:Programs/Rainforest/story_content/frame.xml
-          <option name="closed_captions" value="false">
-            <options>
-              <option name="font" value="Open Sans" />
-            </options>
-          </option>
-          <option name="settings" value="false" />
-========
           <option name="closed_captions" value="true">
             <options>
               <option name="font" value="Lato" />
             </options>
           </option>
           <option name="settings" value="true" />
->>>>>>>> 36d096944be22c2b9d3f15e087b554af5564f254:Curiosity Carts/FurCart/story_content/frame.xml
           <option name="fullScreenToggle" value="false" />
           <option name="playbackSpeedControl" value="false" />
         </options>
@@ -242,38 +218,9 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pnxanbnsnfns00000000001">
-      <control name="volume" enabled="false" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="false" />
-      <control name="fullScreenToggle" enabled="false" />
-      <control name="playbackSpeedControl" enabled="false" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
   </control_layouts>
   <colorschemes>
-<<<<<<<< HEAD:Programs/Rainforest/story_content/frame.xml
-    <colorscheme name="npxnabnsnfns00000000001">
-========
     <colorscheme name="pxabnsnfns00001100101">
->>>>>>>> 36d096944be22c2b9d3f15e087b554af5564f254:Curiosity Carts/FurCart/story_content/frame.xml
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -283,8 +230,6 @@
               </colors>
             </fill>
           </color>
-<<<<<<<< HEAD:Programs/Rainforest/story_content/frame.xml
-========
           <color name="focus_rect_secondary">
             <fill type="linear" rotation="90">
               <colors>
@@ -310,7 +255,6 @@
               </colors>
             </fill>
           </color>
->>>>>>>> 36d096944be22c2b9d3f15e087b554af5564f254:Curiosity Carts/FurCart/story_content/frame.xml
         </group_colors>
       </color_group>
       <color_group name="infopanel">
@@ -1434,8 +1378,6 @@
               </colors>
             </fill>
           </color>
-<<<<<<<< HEAD:Programs/Rainforest/story_content/frame.xml
-========
           <color name="slider_shadow">
             <fill type="linear" rotation="90">
               <colors>
@@ -1450,17 +1392,12 @@
               </colors>
             </fill>
           </color>
->>>>>>>> 36d096944be22c2b9d3f15e087b554af5564f254:Curiosity Carts/FurCart/story_content/frame.xml
         </group_colors>
       </color_group>
     </colorscheme>
   </colorschemes>
   <string_tables>
-<<<<<<<< HEAD:Programs/Rainforest/story_content/frame.xml
-    <string_table name="npxnabnsnfns00000000001">
-========
     <string_table name="pxabnsnfns00001100101">
->>>>>>>> 36d096944be22c2b9d3f15e087b554af5564f254:Curiosity Carts/FurCart/story_content/frame.xml
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1601,11 +1538,7 @@
       <string id="progress_seconds">seconds</string>
       <string id="settings_tip">Settings</string>
       <string id="shift_key">Shift</string>
-<<<<<<<< HEAD:Programs/Rainforest/story_content/frame.xml
-      <string id="acc_skipnavigation">Back to top.</string>
-========
       <string id="acc_skipnavigation">Back to top</string>
->>>>>>>> 36d096944be22c2b9d3f15e087b554af5564f254:Curiosity Carts/FurCart/story_content/frame.xml
       <string id="slide_text_chk">Slide Text</string>
       <string id="spacebar_key">Space</string>
       <string id="streaming_video_local_playback_learn_more">Learn More</string>
@@ -1643,68 +1576,29 @@
   <nav_data>
     <outline>
       <links>
-<<<<<<<< HEAD:Programs/Rainforest/story_content/frame.xml
-        <slidelink slideid="_player.5Z6aqQRjl6b" displaytext="New Rainforest Presentation" expand="true" type="slide">
+        <slidelink slideid="_player.6q9wBGoUqmW" displaytext="Africa Room Cart Slides" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5Z6aqQRjl6b.5dM0JSC867R" displaytext="Rainforest" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6fhXtXKEVGS" displaytext="What is a rainforest?" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6rPPQt2SpHV" displaytext="What are the differences between these types of rainforests?" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6e6B53rnn18" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6pxIWm7nsXq" displaytext="What is Biodiversity?" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5ZQAsB6i4NE" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5fiMuvXposK" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6AWFcphAs6T" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5am8sywcSSz" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5j8lzAIGRRU" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5YJDmkEczbm" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.688M3L7WFsA" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.65OhprLSO4w" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5t55HdTqlX3" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.655m6QbWoZ3" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6oaYBd4OT0k" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6Yo2t5RcWfa" displaytext="Amazon River" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5Xpork30bM4" displaytext="Algae River" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6Lj2I7XlxPZ" displaytext="Glass Shrimp" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5ZFgVl622to" displaytext="Amazon Leaffish" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.65iEUuaIxTT" displaytext="Red-bellied Piranha" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5l5umj61HSZ" displaytext="Black Caiman" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5VgbPd1dOQV" displaytext="Amazon River Dolphin" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5qDfnRfuoMh" displaytext="What if... Amazon River" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.62EjaPvNVOx" displaytext="Vertebrate Diversity" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6Y2RGrOII4u" displaytext="Log Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6qpEjLWgGyK" displaytext="Nurse Log Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5m2bdi8pICE" displaytext="Plant Growth Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5l9ujT5xQ9j" displaytext="Leafcutter Ant Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6NAdxa4QBMi" displaytext="Fungus Farms Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6kMeQ4KFksR" displaytext="Fungus Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6YzkbRAyUBq" displaytext="Giant Armadillo Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6QckbkxfI89" displaytext="Capybara Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6UhEZ1QV8EA" displaytext="Jaguar Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6kObBqWWoUr" displaytext="What If Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.68swjd2k6at" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5XowVut5ppQ" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5VlN7mjufd3" displaytext="Deforestation Layer" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5pNdxdeyelM" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6Mt4HM6zWfy" displaytext="Fires Layer" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.5ieGzAZPiqV" displaytext="Water Pollution Layer" expand="false" type="slide" />
-            <slidelink slideid="_player.5Z6aqQRjl6b.6gl1pQpk94z" displaytext="Untitled Slide" expand="false" type="slide" />
-========
-        <slidelink slideid="_player.6AvE8RVOJ8j" displaytext="Fur Cart Slides" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6AvE8RVOJ8j.6VON4FffC7y" displaytext="Start Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6AvE8RVOJ8j.60KeBG5jM35" displaytext="FrontRoom" expand="false" type="slide" />
-            <slidelink slideid="_player.6AvE8RVOJ8j.5dIun59hDr1" displaytext="ElephantRoom" expand="false" type="slide" />
-            <slidelink slideid="_player.6AvE8RVOJ8j.5nHkSX9G47o" displaytext="BlkBearVid" expand="false" type="slide" />
-            <slidelink slideid="_player.6AvE8RVOJ8j.5yiiF4tcI2t" displaytext="SymbisosVid" expand="false" type="slide" />
-            <slidelink slideid="_player.6AvE8RVOJ8j.5W8sguce7C3" displaytext="MuskOxVid" expand="false" type="slide" />
-            <slidelink slideid="_player.6AvE8RVOJ8j.6PmrcDHXRB8" displaytext="GiraffeVid" expand="false" type="slide" />
-            <slidelink slideid="_player.6AvE8RVOJ8j.6TLDuJKkYiV" displaytext="WolverineVid" expand="false" type="slide" />
-            <slidelink slideid="_player.6AvE8RVOJ8j.6Pxh8pwk2s1" displaytext="ElephantVid" expand="false" type="slide" />
-            <slidelink slideid="_player.6AvE8RVOJ8j.6ita7Wx9Oxd" displaytext="RhinoVid" expand="false" type="slide" />
-            <slidelink slideid="_player.6AvE8RVOJ8j.5pKF1CeGwn4" displaytext="SymbisosVid" expand="false" type="slide" />
-            <slidelink slideid="_player.6AvE8RVOJ8j.5y77FfeXwgK" displaytext="ArcticFoxVid" expand="false" type="slide" />
-            <slidelink slideid="_player.6AvE8RVOJ8j.5keamW5Mehi" displaytext="PolarBearVid" expand="false" type="slide" />
->>>>>>>> 36d096944be22c2b9d3f15e087b554af5564f254:Curiosity Carts/FurCart/story_content/frame.xml
+            <slidelink slideid="_player.6q9wBGoUqmW.65hMOmAszvd" displaytext="Home" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.5vVPdYEtAtU" displaytext="Predators" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.6Y90uFp6xyo" displaytext="Leopard" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.5stfj6ePzR6" displaytext="LeoVideo" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.5eqnAMkTY7n" displaytext="Lion" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.5trw0jFg7NE" displaytext="LionVideo" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.5rw3NyePAZz" displaytext="Crocodile" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.6O5kdpi1UFs" displaytext="CrocVideo" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.6X2OkW5HlXO" displaytext="Herbivres" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.5fYJdacU7Cm" displaytext="Sitatunga" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.66wiZup9ppF" displaytext="SitVideo" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.6A5XKIVSqs6" displaytext="Topi" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.5ZayQ5SXHNh" displaytext="TopiVideo" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.6Xb39c5tAPf" displaytext="Bongo" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.6kAZtrFgyal" displaytext="Producers" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.6RFLPhvMyTs" displaytext="Acacia" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.5zpe3cQXmDc" displaytext="AcaciaVideo" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.6ofxiGhPe8Q" displaytext="BongoVideo" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.5dEJmOBzTMX" displaytext="Red Oat" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.6L25ALOdPE0" displaytext="Baobab" expand="false" type="slide" />
+            <slidelink slideid="_player.6q9wBGoUqmW.5eyPS97mI71" displaytext="BaobabVideo" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
