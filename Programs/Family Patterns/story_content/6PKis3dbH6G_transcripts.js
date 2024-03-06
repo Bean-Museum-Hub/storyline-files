@@ -1,0 +1,5 @@
+
+(function() {
+    const data = {"transcripts":[{"name":"captions","cues":[{"start":256,"text":"On a river bank in East Africa"},{"start":2976,"text":"crocs are hatching. The gender of each is"},{"start":6784,"text":"determined by the heat of the nest."},{"start":8833,"text":"If the egg stays between 88 and 90 degrees"},{"start":12800,"text":"it produces a male,"},{"start":14848,"text":"higher or lower and it produces a female."},{"start":18848,"text":"Now they're vulnerable,"},{"start":22784,"text":"a snack for hungry predators."},{"start":27840,"text":"But this is their mother, and she's not eating them, she's protecting them."},{"start":33888,"text":"To gently pick up her babies she used the deadliest jaws on the planet. They're capable of"},{"start":39936,"text":"delievering a bite force of 5,000 pouds per square inch"},{"start":43968,"text":"which makes them more than 7x more powerful than a great white sharks bite."},{"start":49728,"text":"This mother carries a mouthful to safer waters."}]}]};
+    window.globalLoadJsAsset('story_content/6PKis3dbH6G_transcripts.js', JSON.stringify(data));
+})();
