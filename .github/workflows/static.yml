@@ -3,17 +3,10 @@ name: Create and publish Docker image
 on:
   push:
     branches: ['master']
-env:
-  Registry: ghrc.io
-  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   build-and-push-image:
     runs-on: [Linux]
-
-    permissions:
-      contents: read
-      packages: write
 
     steps:
       - name: Checkout repository
