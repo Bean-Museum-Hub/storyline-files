@@ -34,7 +34,7 @@ jobs:
         uses: phish108/autotag-action@1.1.64
         with:
           github-token: ${{ secrets.GITHUB_TOKEN}}
-          release-branch: main
+          release-branch: master
 
       # Setup Docker buld action
       - name: Set up Docker Buildx
