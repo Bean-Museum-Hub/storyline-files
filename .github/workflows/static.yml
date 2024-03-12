@@ -9,7 +9,7 @@ env:
 
 jobs:
   build-and-push-image:
-    runs-on: [Linux, bean]
+    runs-on: [Linux]
 
     permissions:
       contents: read
