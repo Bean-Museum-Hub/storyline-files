@@ -29,12 +29,12 @@ jobs:
         run: echo "::set-output name=lowercase::$(echo ${{ steps.repo.outputs.lowercase }} | cut -d'/' -f2)"
 
         # Create tag
-      - name: Create tag
-        id: tagger
-        uses: phish108/autotag-action@1.1.64
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN}}
-          release-branch: master
+      # - name: Create tag
+      #   id: tagger
+      #   uses: phish108/autotag-action@1.1.64
+      #   with:
+      #     github-token: ${{ secrets.GITHUB_TOKEN}}
+      #     release-branch: master
 
       # Setup Docker buld action
       - name: Set up Docker Buildx
