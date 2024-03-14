@@ -44,7 +44,7 @@ jobs:
       - name: Build Docker Image and push to Github Registry
         uses: docker/build-push-action@v4
         with:
-          context: ./${{steps.lowercase.outputs.lowercase}}
+          context: ./
           # If we are on beta, we want to tag the image as beta
           # else we want to tag it as latest
           tags: ghcr.io/${{ steps.repo.outputs.lowercase }}:${{ github.ref == 'refs/heads/master' && 'latest' }}
