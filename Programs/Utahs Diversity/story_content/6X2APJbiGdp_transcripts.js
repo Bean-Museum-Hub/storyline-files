@@ -1,0 +1,5 @@
+
+(function() {
+    const data = {"transcripts":[{"name":"captions","cues":[{"start":6400,"text":"This is a Hoary bat last week."},{"start":10784,"text":"She had a broken metacarpal so Dr Rebecca Dorphum of the "},{"start":16832,"text":"RC pinned with this 30 gauge needle for us."},{"start":23232,"text":"She feels secured when she holds with her back feet so that's how I hold her"},{"start":29824,"text":"And I do feed her upside down, I do most things with her upside down because she is comfortable in this position. So we're not eating"},{"start":35872,"text":"right now. Right now we're brushing teeth, but she doesn't know that yet"},{"start":42944,"text":"You'll see there's plaque on her teeth. See the dark stuff in there on her teeth"},{"start":47552,"text":"That's mealworm guts that could become tartar"}]}]};
+    window.globalLoadJsAsset('story_content/6X2APJbiGdp_transcripts.js', JSON.stringify(data));
+})();
